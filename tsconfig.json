@@ -114,11 +114,12 @@
         "jsx": "react",
         "module": "ESNext",
         "declaration": true,
-        "declarationDir": true,
+        "declarationDir": "types",
         "sourceMap": true,
         "outDir": "dist",
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
-        "emitDeclarationOnly": true
+        "emitDeclarationOnly": true,
+        "rootDir": "src"
     }
 }
